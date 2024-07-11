@@ -1,0 +1,19 @@
+:root{
+    --bg: #063232;
+    --white: #ffffff;
+}
+
+body{
+    margin: 0;
+}
+
+.footer-area{
+    color: var(--white);
+    padding: 40px;
+}
+
+.footer-area .footer-wrapper{
+    background-color: var(--bg);
+    padding: 40px;
+    border-radius: 25px;
+}
