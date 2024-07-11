@@ -1,10 +1,12 @@
 :root{
     --bg: #063232;
+    --btn-bg: #0c6e6d;
     --white: #ffffff;
 }
 
 body{
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer-area{
@@ -17,3 +19,119 @@ body{
     padding: 40px;
     border-radius: 25px;
 }
+
+.footer-area .footer-wrapper .footer-top .footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-area .footer-wrapper .footer-top .footer-top-right{
+    padding-left: 120px;
+}
+
+.footer-area .footer-wrapper .footer-top .sub-title {
+    opacity: .6;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.footer-area .footer-wrapper .footer-top .newsletter {
+    border-bottom: 1px solid rgba(255, 255, 255, .6);
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.footer-area .footer-wrapper .footer-top .newsletter input{
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    padding: 10px 5px;
+    width: 70%;
+}
+
+.footer-area .footer-wrapper .footer-top .newsletter input::placeholder{
+    color: var(--white);
+}
+
+.footer-area .footer-wrapper .footer-top .newsletter input:focus-visible{
+    outline: none;
+}
+
+.footer-area .footer-wrapper .footer-top .newsletter button{
+    background-color: var(--btn-bg);
+    color: var(--white);
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.footer-area .footer-wrapper .footer-top .newsletter button:hover{
+    background-color: var(--white);
+    color: var(--btn-bg);
+}
+
+.footer-area .footer-wrapper .footer-top .footer-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.footer-area .footer-wrapper .footer-top a{
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    opacity: .6;
+    margin-bottom: 15px;
+    font-size: 14px;
+    transition: all .3s;
+}
+
+.footer-area .footer-wrapper .footer-top a:hover{
+    opacity: 1;
+}
+
+.footer-area .footer-wrapper .footer-top .footer-address, .footer-phone, .footer-mail{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-area .footer-wrapper .footer-top .footer-address,
+.footer-phone,
+.footer-mail p{
+    font-size: 14px;
+}
+
+.footer-area .footer-wrapper .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        border-top: 1px solid rgba(255, 255, 255, .6);
+        padding-top: 20px;
+}
+
+.footer-area .footer-wrapper .footer-bottom p {
+    font-size: 14px;
+}
+
+.footer-area .footer-wrapper .footer-bottom a{
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: .6;
+    transition: all .3s;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.footer-area .footer-wrapper .footer-bottom a:hover{
+    opacity: 1;
+}
+
